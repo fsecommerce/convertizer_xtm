@@ -1,0 +1,10 @@
+There is not much to do to give your shop the ability to add products to cart via sku and external URL.
+
+1) Make a local copy of your /includes/cart_actions.php
+2) Replace includes/cart_actions.php with the version provided here
+
+The URL convertizer puts items to cart with is:
+
+index.php?action=buy_now&BUYproducts_sku=[the products sku]
+
+You can use that for other things to
